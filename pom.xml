@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>ob-spring-security-oauth-github</artifactId>
+	<artifactId>ob-spring-security-oauth-okta</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ob-spring-security-oauth-github</name>
 	<description>Demo project for Spring Boot</description>
@@ -53,6 +53,11 @@
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.okta.spring</groupId>
+			<artifactId>okta-spring-boot-starter</artifactId>
+			<version>2.1.2</version>
 		</dependency>
 	</dependencies>
 

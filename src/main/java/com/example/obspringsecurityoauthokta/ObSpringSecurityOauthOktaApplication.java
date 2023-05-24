@@ -1,13 +1,13 @@
-package com.example.obspringsecurityoauthgithub;
+package com.example.obspringsecurityoauthokta;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ObSpringSecurityOauthGithubApplication {
+public class ObSpringSecurityOauthOktaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ObSpringSecurityOauthGithubApplication.class, args);
+		SpringApplication.run(ObSpringSecurityOauthOktaApplication.class, args);
 	}
 
 }
